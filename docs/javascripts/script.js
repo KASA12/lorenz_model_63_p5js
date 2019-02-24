@@ -68,7 +68,7 @@ function draw() {
   pg.fill(220, 10, 100, 100);
   pg.textSize(32);
   pg.textFont('Helvetica');
-  pg.text("Rolenz Model 63", 100, 100);
+  pg.text("Lorenz Model 63", 100, 100);
   pg.textSize(16);
   pg.text("X : " + Number(xt.slice(-1)).toFixed(2), 100, 150);
   pg.text("Y : " + Number(yt.slice(-1)).toFixed(2), 100, 170);
